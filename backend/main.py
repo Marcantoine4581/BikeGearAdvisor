@@ -8,7 +8,7 @@ from calculations import calculate_wkg_for_all_gears
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",
+    "http://localhost:5173",
 ]
 
 app.add_middleware(
